@@ -1,0 +1,10 @@
+.col-xl.sidebar-wrapper {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+.sidebar-title-wrapper {
+    padding: 30px 0 30px 30px;
+}
+.sidebar-wrapper .post-wrapper {
+    background-color: white;
+}

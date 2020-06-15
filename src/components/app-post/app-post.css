@@ -1,0 +1,48 @@
+.post-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 100%;
+    background-color: #f8f9fa;
+    height: 150px;
+    border: 2px solid #f8f9fa;
+    border-radius: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.text-wrapper {
+    text-align: center;
+    display: flex;
+}
+.text-wrapper img {
+    width: 60px;
+    height: 60px;
+}
+span.post-text {
+    display: flex;
+    align-items: center;
+}
+.post-btn button.btn.btn-light, .post-btn button.btn.btn-light:active, .post-btn button.btn.btn-light:focus {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: default;
+    box-shadow: none!important;
+}
+.post-btn {
+    position: absolute;
+    right: 18px;
+    bottom: 10px;
+}
+i.fa.fa-heart {
+    position: absolute;
+    top: 7px;
+    right: 18px;
+    color: #000000;
+    font-size: 30px;
+    cursor: pointer;
+}
+.fa.fa-heart.like{
+    color: red;
+}
